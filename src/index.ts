@@ -136,8 +136,6 @@ type StacksIconOptions = StacksCommonOptions & {
             const button = (target as Element).closest("button");
             const [prefix, id] = button?.id.split("-") || [];
 
-            console.log({ prefix, id });
-
             if (prefix !== "uqlId") return;
 
             const { fkey } = StackExchange.options.user;

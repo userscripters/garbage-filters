@@ -95,7 +95,6 @@
             const { target } = event;
             const button = target.closest("button");
             const [prefix, id] = (button === null || button === void 0 ? void 0 : button.id.split("-")) || [];
-            console.log({ prefix, id });
             if (prefix !== "uqlId")
                 return;
             const { fkey } = StackExchange.options.user;

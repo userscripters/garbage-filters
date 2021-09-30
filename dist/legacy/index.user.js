@@ -172,7 +172,6 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
                         target = event.target;
                         button = target.closest("button");
                         _a = __read((button === null || button === void 0 ? void 0 : button.id.split("-")) || [], 2), prefix = _a[0], id = _a[1];
-                        console.log({ prefix: prefix, id: id });
                         if (prefix !== "uqlId")
                             return [2];
                         fkey = StackExchange.options.user.fkey;
