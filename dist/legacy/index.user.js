@@ -156,6 +156,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
             var action = text.trim();
             var _b = __read(makeStacksIcon("iconTrash", "M11 2a1 1 0 011 1v1H2V3a1 1 0 011-1h2a1 1 0 011-1h2a1 1 0 011 1h2Zm0 3H3v6c0 1.1.9 2 2 2h4a2 2 0 002-2V5Z"), 1), icon = _b[0];
             var deleteBtn = makeStacksButton("uqlId-" + filterId, "", {
+                classes: ["fc-red-500"],
                 danger: true,
                 title: "Delete " + action,
                 type: "link",

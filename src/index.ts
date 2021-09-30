@@ -119,6 +119,7 @@ type StacksIconOptions = StacksCommonOptions & {
             );
 
             const deleteBtn = makeStacksButton(`uqlId-${filterId}`, "", {
+                classes: ["fc-red-500"],
                 danger: true,
                 title: `Delete ${action}`,
                 type: "link",
