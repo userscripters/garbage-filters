@@ -1,6 +1,6 @@
 {
     "name": "@userscripters/garbage-filters",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "adds a garbage bin icon to custom filters",
     "scripts": {
         "test": "mocha",
