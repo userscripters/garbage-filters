@@ -14,5 +14,5 @@
 // @run-at          document-start
 // @source          git+https://github.com/userscripters/garbage-filters.git
 // @supportURL      https://github.com/userscripters/garbage-filters/issues
-// @version         0.1.0
+// @version         0.2.0
 // ==/UserScript==

@@ -6,7 +6,7 @@
 | Name | @userscripters/garbage-filters |
 | Description | adds a garbage bin icon to custom filters |
 | License | [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later) |
-| Version | 0.1.0 |
+| Version | 0.2.0 |
 
 # Support
 
